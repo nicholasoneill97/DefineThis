@@ -1,0 +1,28 @@
+/*How Definitions Are Displayed*/
+
+.definition {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    text-align: left;
+    list-style:none;
+    width: 60%;
+    padding: 10px;
+    margin: auto;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+/*Making Definitions Responsive*/
+
+
+@media screen and (max-width: 600px) {
+    .definition {
+        margin-bottom: 10px;
+        text-align: left;
+        list-style:none;
+        width: 100%;
+        padding: 10px;
+        margin: auto;
+        font-size: 20px;
+    }
+}

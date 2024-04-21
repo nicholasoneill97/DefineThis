@@ -1,0 +1,62 @@
+/*Contact Page Styles*/
+
+.contact-container {
+    padding:3rem;
+    text-align: center;
+    
+}
+    
+.contact-title {
+    padding:1rem;
+    letter-spacing: 1.5px;
+}
+    
+.contact-email {
+    font-size: 20px;
+    padding: 1rem;
+}
+
+/*Line Separating Header and Body*/
+    
+.line {
+    background-color: white;
+    margin: auto;
+    width: 30%;
+    height: 1px;      
+}
+
+/*React Icons Styling*/
+
+.contact-icons {
+    display: flex;
+    justify-content: center;
+    gap:40px;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    
+}
+
+.icon {
+    font-size: 40px;
+    cursor: pointer;
+    
+}
+
+.GHicon {
+    border-radius: 45px;
+}
+
+.GHicon:hover {
+    background-color: rgb(0, 0, 0);
+    transition: 1.5s;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.LIicon:hover {
+    background-color: blue;
+    transition: 1.5s;
+    cursor: pointer;
+    border-radius: 5px;
+    
+}

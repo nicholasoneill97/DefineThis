@@ -1,0 +1,74 @@
+.categories {
+    text-align: center;
+    font-size: 30px;
+}
+
+.category-container {
+        padding:0px;
+        width: 50%;
+        margin:auto;
+        margin-bottom: 80px;
+        margin-top: 30px;
+        
+}
+
+.results-container {
+    padding:10px;
+    margin-top: 2rem;
+}
+
+/*Styles for elements that display when results are loading*/
+
+.loading-container {
+    margin-top: 100px;
+    text-align: center;
+}
+
+/*line under categories of results*/
+
+.results-line {
+ background-color: white;
+ margin: auto;
+ width: 80%;
+ height: 1px;
+ margin-bottom: 15px;
+}
+
+/*Error Messsage When Results Are Not Found*/
+
+.errormessage {
+    padding:6rem;
+    text-align: center;
+
+}
+
+/*Making Category Containers Responsive*/
+
+
+@media screen and (max-width: 600px) {
+    .category-container {
+        padding-top:5rem;
+        width: 100%;
+        margin:auto;
+        margin-bottom: 80px;
+        
+}
+    .categories {
+        text-align: center;
+        font-size: 25px;
+}
+}
+
+@media screen and (max-width: 1183px) {
+    .category-container {
+        padding-top:6rem;
+        width: 100%;
+        margin:auto;
+        margin-bottom: 80px;
+        
+}
+    .categories {
+        text-align: center;
+        font-size: 35px;
+}
+}

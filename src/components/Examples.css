@@ -1,0 +1,29 @@
+/*How Examples Are Displayed*/
+
+.example {
+        margin-bottom: 10px;
+        text-align: center;
+        list-style:none;
+        width: 50%;
+        padding: 10px;
+        margin: auto;
+        font-size: 20px;
+        line-height: 30px;
+}
+
+/*Making Examples Responsive*/    
+
+@media screen and (max-width: 600px) {
+        
+        .example {
+                margin-bottom: 10px;
+                text-align: center;
+                list-style:none;
+                width: 100%;
+                padding: 10px;
+                margin: auto;
+                font-size: 20px;
+            }
+        
+
+}

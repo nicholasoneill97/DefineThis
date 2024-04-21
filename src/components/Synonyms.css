@@ -1,0 +1,14 @@
+/*How Synonyms are Displayed*/
+
+.synonym {
+    margin-bottom: 10px;
+    text-align: center;
+    list-style:none;
+    width: 100%;
+    padding: 5px;
+    margin: auto;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+
