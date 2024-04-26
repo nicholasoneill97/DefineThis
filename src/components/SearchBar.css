@@ -21,6 +21,7 @@
     border-right: 0;
     border-style: solid; 
     text-align: center;
+    font-size: 30px;
     
 }
 .searchbar::placeholder {
@@ -43,9 +44,10 @@
 
 .title {
     margin-top: 3rem;
-    font-size: 20px;
+    font-size: 30px;
     width:100%;
     text-align: center;
+
 }
 
 /*Button That Executes Search*/
@@ -120,6 +122,19 @@
         width:200px;
         margin-left: 0px;
         
+}
+    .title {
+    margin-top: 3rem;
+    font-size: 20px;
+    width:100%;
+    text-align: center;
+    letter-spacing: 1px;
+
+}
+.searchbar {
+    
+    font-size: 20px;
+    
 }
     
 
