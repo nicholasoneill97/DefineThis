@@ -20,6 +20,18 @@
         margin-bottom: 10px;
         text-align: left;
         list-style:none;
+        width: 90%;
+        padding: 10px;
+        margin: auto;
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .definition {
+        margin-bottom: 10px;
+        text-align: center;
+        list-style:none;
         width: 100%;
         padding: 10px;
         margin: auto;

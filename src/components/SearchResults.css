@@ -14,7 +14,7 @@
 
 .results-container {
     padding:10px;
-    margin-top: 2rem;
+    margin-top: 7.5rem;
 }
 
 /*Styles for elements that display when results are loading*/
@@ -69,6 +69,11 @@
     letter-spacing: .7px;
 
 }
+
+.results-container {
+    padding:10px;
+    margin-top: 1rem;
+}
 }
 
 @media screen and (max-width: 1183px) {
@@ -82,5 +87,9 @@
     .categories {
         text-align: center;
         font-size: 35px;
+}
+.results-container {
+    padding:10px;
+    margin-top: 3rem;
 }
 }
